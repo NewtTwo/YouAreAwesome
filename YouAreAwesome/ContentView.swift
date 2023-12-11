@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var messageString = "message will appear here"
-    
+    // I keep changing a simple thing to experiment with source control process
     var body: some View {
         VStack {
             Text(messageString)
