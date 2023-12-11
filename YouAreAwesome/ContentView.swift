@@ -13,7 +13,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Text(messageString)
-                .font(.title3)
+                .font(.system(size: 30))
                 .fontWeight(.bold)
                 .foregroundColor(.red)
                 .padding()
