@@ -8,14 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var messageString = "message will appear here"
+    @State private var messageString = "Development"
     // I keep changing a simple thing to experiment with source control process
+    // looks like I just hit >Integrate>Commit and it does the local, now experimentwith saving local then saving to remote ie GitHub with Kool Beans in initial text
     var body: some View {
         VStack {
             Text(messageString)
                 .font(.system(size: 30))
                 .fontWeight(.bold)
-                .foregroundColor(.red)
+            Rectangle()
+                .foregroundColor(.blue)
                 .padding()
         
             HStack {
